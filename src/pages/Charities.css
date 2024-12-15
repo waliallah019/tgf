@@ -1,0 +1,14 @@
+.charities {
+    padding: 20px;
+  }
+  
+  .charities h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .charities .charity-card {
+    margin-bottom: 16px;
+  }
+  

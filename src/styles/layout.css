@@ -1,0 +1,11 @@
+.hero {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 40px 20px;
+  }
+  
+  .hero-img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,146 @@
+.intro-section {
+
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.intro-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.intro-content p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  text-align: left;
+  margin: 10px;
+}
+
+.donate-btn {
+  padding: 15px 30px;
+  background-color: #0047ab;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.donate-btn:hover {
+  background-color: #003580;
+}
+.gaza-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  flex-wrap: wrap; 
+  background-color: #f4f4f4;
+}
+
+.gaza-content {
+  flex: 1;
+  max-width: 60%;
+  margin-right: 20px;
+}
+
+.gaza-heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.gaza-image {
+  flex: 1;
+  max-width: 40%;
+}
+
+.gaza-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.current-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+.currsec-image {
+  flex: 1;
+  max-width: 40%;
+  order: 1;
+}
+
+.current-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.current-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.current-content {
+  flex: 1;
+  max-width: 40%;
+  order: 2;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .current-content, .currsec-image {
+    max-width: 100%;
+    order: initial;
+    margin-right: 0;
+  }
+}
+
+.donation-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.donation-section .donation-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.donation-section .donation-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.updates-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.updates-section .section-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.updates-section .updates-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.updates-section .updates-content li {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}

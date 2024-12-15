@@ -1,0 +1,91 @@
+/* General navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: transparent; /* Starts transparent */
+}
+
+.navbar .navbar-left {
+  font-size: 20px;
+  color: black; /* Default text color */
+  padding: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar .navbar-right {
+  font-size: 30px;
+  color: black; /* Default color for hamburger button */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+/* Hamburger button */
+.navbar .hamburger {
+  background: none;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(0, 0, 0); 
+  z-index: 1001; 
+  padding: 20px;
+}
+
+/* Scroll effect styles */
+.navbar.scrolled {
+  background-color: black; /* Turns black when scrolled */
+}
+
+.navbar.scrolled .navbar-left,
+.navbar.scrolled .navbar-right,
+.navbar.scrolled .hamburger {
+  color: white; /* Change text and button color to white when scrolled */
+}
+
+/* Fullscreen menu */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.853); /* Dark overlay on full-screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-link {
+  background: none;
+  border: none;
+  font-size: 30px;
+  margin: 10px;
+  padding: 15px 40px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.menu-link:hover {
+  color: rgb(96, 138, 210);
+}

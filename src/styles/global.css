@@ -1,0 +1,26 @@
+/* global.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the content takes up full height of the viewport */
+}
+
+footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+  background-color: #0047ab;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
