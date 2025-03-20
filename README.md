@@ -21,7 +21,7 @@ A donation platform dedicated to supporting charities and organizations working 
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/yourusername/together-for-gaza.git
+   git clone https://github.com/waliallah019/tgf
    cd together-for-gaza
    ```
 
@@ -30,19 +30,12 @@ A donation platform dedicated to supporting charities and organizations working 
    npm install
    ```
 
-3. **Set Up Environment Variables**  
-   Create a `.env` file in the root folder and add the following:  
-   ```env
-   MONGO_URI=your_mongodb_connection_string
-   PAYMENT_GATEWAY_KEY=your_payment_gateway_key
-   ```
-
-4. **Start the Development Server**  
+3. **Start the Development Server**  
    ```bash
    npm start
    ```
 
-5. **Access the Project**  
+4. **Access the Project**  
    Open your browser and visit: [http://localhost:3000](http://localhost:3000)
 
 ## Folder Structure
